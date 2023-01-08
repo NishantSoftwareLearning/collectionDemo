@@ -13,8 +13,8 @@ public class Arraylist {
 		l.add("bharat");
 		l.add("jalkotkar");
 		
-		//System.out.println(l);
-		for(String list:l) {
-			System.out.println(list);
-		}
+		System.out.println(l);
+//		//for(String list:l) {
+//			System.out.println(list);
+//		}
 	}}
