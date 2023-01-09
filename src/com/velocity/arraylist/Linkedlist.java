@@ -10,9 +10,13 @@ public class Linkedlist {
 		Employee e=new Employee();
 		e.setId(1);
 		e.setName("nishant");
-		
+		e.setId(2);
+		e.setName("tom");
 		l.add(e);
-		System.out.println(l);
+	//	System.out.println(l);
+		for(Employee emp:l) {
+			System.out.println(emp);
+		}
 		
 	}
 
